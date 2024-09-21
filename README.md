@@ -4,9 +4,9 @@
 
 **ZH**
 
-中文省流：一时兴起，还没开头但大概率烂尾的垃圾项目，属于那种张口就来的idea，不建议浪费时间阅读：
+<u>省流：一时兴起的 ppt 项目，目前**不建议**浪费时间阅读</u>：
 
-**EN**''
+**EN**
 
 I came up with this idea mainly considering the following points:
 
@@ -43,4 +43,4 @@ We can start to iterate through these procedures
 
 ## Documentation
 
-See [documentations](Open Campus - Docs.md).
+See [documentations](./docs/index.md).
