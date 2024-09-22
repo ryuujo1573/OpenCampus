@@ -1,0 +1,6 @@
+[submodule "portal"]
+	path = portal
+	url = https://github.com/ryuujo1573/opencampus-portal
+[submodule "bootstrap"]
+	path = bootstrap
+	url = https://github.com/ryuujo1573/opencampus-bootstrap
