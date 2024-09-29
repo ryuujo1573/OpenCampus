@@ -17,7 +17,7 @@ For developers, see [documentations](./docs/index.md).
 2. Productivity
 3. Intelligent education
 
-See roadmaps #1.
+See roadmaps (ryuujo1573/OpenCampus#1).
 
 ### Why another campus / education solution?
 
