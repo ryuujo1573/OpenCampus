@@ -1,0 +1,12 @@
+{
+  "name": "opencampus-root",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "prepare": "git submodule update --init --recursive",
+    "portal": "pnpm --filter ./portal"
+  },
+  "engines": {
+    "node": ">=20.14.0"
+  }
+}
