@@ -13,6 +13,9 @@ importers:
       '@angular/localize':
         specifier: ^16.2.2
         version: 16.2.12(@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12)(typescript@5.4.5))(@angular/compiler@16.2.12)
+      '@qwikest/icons':
+        specifier: ^0.0.13
+        version: 0.0.13(@builder.io/qwik@1.9.0(@types/node@20.14.11))
     devDependencies:
       '@angular/compiler':
         specifier: ^16.2.2
@@ -53,9 +56,6 @@ importers:
       eslint-plugin-qwik:
         specifier: ^1.9.0
         version: 1.9.0(eslint@8.57.0)
-      postcss:
-        specifier: ^8.4.39
-        version: 8.4.47
       postcss-preset-env:
         specifier: ^9.1.0
         version: 9.6.0(postcss@8.4.47)
@@ -66,7 +66,7 @@ importers:
         specifier: ^0.5.4
         version: 0.5.14(prettier@3.3.3)
       tailwindcss:
-        specifier: ^3.4.6
+        specifier: ^3.4.13
         version: 3.4.13
       typescript:
         specifier: 5.4.5
@@ -947,6 +947,12 @@ packages:
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
     engines: {node: '>=14'}
+
+  '@qwikest/icons@0.0.13':
+    resolution: {integrity: sha512-e0wY8vmx0nDSUiuCATlk+ojTvdBV4txIGHHWjZW5SRkv4XB8H9+3WSDcLPz0ItUdRyzcrohE9k2jtQI/98aRPA==}
+    engines: {node: '>=15.0.0'}
+    peerDependencies:
+      '@builder.io/qwik': '>=1.0.0'
 
   '@rollup/pluginutils@5.1.2':
     resolution: {integrity: sha512-/FIdS3PyZ39bjZlwqFnWqCOVnW7o963LtKMwQOD0NhQqw22gSr2YY1afu3FxRip4ZCZNsD5jq6Aaz6QV3D/Njw==}
@@ -3875,6 +3881,10 @@ snapshots:
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
+
+  '@qwikest/icons@0.0.13(@builder.io/qwik@1.9.0(@types/node@20.14.11))':
+    dependencies:
+      '@builder.io/qwik': 1.9.0(@types/node@20.14.11)
 
   '@rollup/pluginutils@5.1.2(rollup@4.22.5)':
     dependencies:
