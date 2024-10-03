@@ -21,14 +21,14 @@ See roadmaps (ryuujo1573/OpenCampus#1).
 
 ### Why another campus / education solution?
 
-I developed this idea by pondering the following questions:
+This idea is suggested with the following goals:
 
-1. Can we introduce a patent-free, open-source solution to the educational sector?
-2. Can we implement suitable abstractions during the design phase to tackle complex business challenges?
-3. What is the potential scale of this solution?
-4. Why should we prioritize open-source solutions over profit-driven models in the industry?
+1. To introduce a patent-free, open-source solution
+2. To abstract complex business logics
+3. To scale with institution size.
+4. To support schools in conserving their funds.
 
-### The root cause
+### Future plans
 
 **Open source and easy to access.**
 
@@ -40,14 +40,3 @@ Prioritizing open-source over profit-driven models can create a more inclusive a
 
 Community managed development, with the vast on campus students who are interested in improving shared experiences and/or practicing team-collaboration and large-scale application development, is highly appreciated.
 
-## The very first step
-
-To make sure everything realizable, we need to pave the tiles for those may become interested to evaluate and start.
-
-The very first step to take, is keeping things cool and fun.
-
-We can start to iterate through these procedures
-
-1. Architecture design
-2. Workflow setup
-3. Forum (discuss & survey)
