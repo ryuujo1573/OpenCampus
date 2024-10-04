@@ -3,7 +3,9 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "prepare": "git submodule update --init --recursive",
+    "_prepare": "git submodule update --init --recursive",
+    "admin": "pnpm --filter ./admin",
+    "bootstrap": "pnpm --filter ./bootstrap",
     "portal": "pnpm --filter ./portal"
   },
   "engines": {
