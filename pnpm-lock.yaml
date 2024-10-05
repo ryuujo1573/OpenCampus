@@ -41,6 +41,9 @@ importers:
       '@angular/localize':
         specifier: ^16.2.2
         version: 16.2.12(@angular/compiler-cli@16.2.12(@angular/compiler@16.2.12)(typescript@5.4.5))(@angular/compiler@16.2.12)
+      '@ory/client':
+        specifier: ^1.15.5
+        version: 1.15.5
     devDependencies:
       '@angular/compiler':
         specifier: ^16.2.2
