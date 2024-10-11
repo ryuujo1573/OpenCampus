@@ -44,6 +44,9 @@ importers:
       '@ory/client':
         specifier: ^1.15.5
         version: 1.15.5
+      axios:
+        specifier: '*'
+        version: 1.7.7
     devDependencies:
       '@angular/compiler':
         specifier: ^16.2.2
@@ -87,6 +90,9 @@ importers:
       eslint-plugin-qwik:
         specifier: ^1.9.0
         version: 1.9.0(eslint@8.57.0)
+      postcss:
+        specifier: ^8.4.47
+        version: 8.4.47
       postcss-preset-env:
         specifier: ^9.1.0
         version: 9.6.0(postcss@8.4.47)
