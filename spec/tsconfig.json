@@ -1,0 +1,8 @@
+{
+  "include": ["**/*.ts"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["vitest/globals", "vite/client"],
+  }
+}

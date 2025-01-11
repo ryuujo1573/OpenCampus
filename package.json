@@ -3,12 +3,19 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "_prepare": "git submodule update --init --recursive",
+    "submodule.init": "git submodule update --init --recursive",
     "admin": "pnpm --filter ./admin",
     "bootstrap": "pnpm --filter ./bootstrap",
     "portal": "pnpm --filter ./portal"
   },
   "engines": {
     "node": ">=20.14.0"
+  },
+  "devDependencies": {
+    "@types/node": "20",
+    "admin": "workspace:0.0.1-dev",
+    "typescript": "5.4.5",
+    "vite": "5.3.5",
+    "vitest": "^2.1.8"
   }
 }

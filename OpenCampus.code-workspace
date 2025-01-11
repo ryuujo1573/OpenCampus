@@ -8,7 +8,10 @@
     },
   ],
   "settings": {
-    "conventionalCommits.scopes": ["i18n"],
+    "conventionalCommits.scopes": [
+      "i18n",
+      "user"
+    ],
     "conventionalCommits.emojiFormat": "code",
     "conventionalCommits.gitmoji": true,
     "files.associations": {
@@ -22,6 +25,9 @@
     },
     "editor.tabSize": 2,
     "material-icon-theme.activeIconPack": "qwik",
+    "cSpell.words": [
+      "vitest"
+    ],
   },
   "extensions": {
     "recommendations": [
