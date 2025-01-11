@@ -1,0 +1,33 @@
+{
+  "folders": [
+    {
+      "path": ".",
+    },
+    {
+      "path": "portal",
+    },
+  ],
+  "settings": {
+    "conventionalCommits.scopes": ["i18n"],
+    "conventionalCommits.emojiFormat": "code",
+    "conventionalCommits.gitmoji": true,
+    "files.associations": {
+      "*.css": "tailwindcss",
+    },
+    "emmet.includeLanguages": {
+      "typescriptreact": "html",
+    },
+    "emmet.preferences": {
+      "output.selfClosingStyle": "xhtml",
+    },
+    "editor.tabSize": 2,
+    "material-icon-theme.activeIconPack": "qwik",
+  },
+  "extensions": {
+    "recommendations": [
+      "matthewpi.caddyfile-support",
+      "dbaeumer.vscode-eslint",
+      "unifiedjs.vscode-mdx",
+    ],
+  },
+}
